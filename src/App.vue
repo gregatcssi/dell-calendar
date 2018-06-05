@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <DellCalendar />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import DellCalendar from './components/DellCalendar.vue';
+import Week from './components/week.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    DellCalendar,Week
   },
 })
 export default class App extends Vue {}
@@ -24,6 +24,5 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

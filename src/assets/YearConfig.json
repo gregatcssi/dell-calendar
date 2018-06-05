@@ -1,0 +1,7 @@
+{
+    Year:2019,
+    Dates:{startDate:new Date('2/3/2018'),
+        endDate: new Date('2/1/2019')
+    }
+
+}
